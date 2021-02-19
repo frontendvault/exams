@@ -1,0 +1,171 @@
+.common-box {
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  .progress {
+    height: 10px;
+  }
+  .border-light {
+    border-color: #efefef !important;
+  }
+}
+.red-text {
+  svg {
+    path {
+      fill: $red;
+    }
+  }
+}
+.green-text {
+  svg {
+    path {
+      fill: $green;
+    }
+  }
+}
+
+.bg-magenta {
+  background: $magenta;
+  color: $white;
+}
+.bg-mid-gray {
+  background: $medium-gray;
+}
+.border-gray {
+  border: 1px solid $medium-gray;
+  color: $dark-gray;
+}
+.bg-dark-gray {
+  background: $dark-gray;
+  svg {
+    path {
+      fill: $dark-gray;
+    }
+  }
+}
+.final-step-line {
+  width: 902px;
+  right: auto !important;
+}
+.child-border-top {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 23px;
+    top: -23px;
+    border-right: 1px dashed $dark-gray;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+.bg-yellow {
+  background: $yellow;
+}
+.border-yellow {
+  border: 1px solid $yellow;
+}
+.border-magenta {
+  border: 1px solid $magenta;
+}
+.orange-border-box {
+  border: 1px solid $orange;
+}
+.orange {
+  background: $orange;
+}
+.arrow-top {
+  position: relative;
+  &:before {
+    content: "";
+    height: 80px;
+    position: absolute;
+    background: url(../images/arrow-bottom.png) no-repeat top center;
+    top: -66px;
+    width: 13px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.mb-6 {
+  margin-bottom: 80px;
+}
+.arrow-bottom {
+  position: relative;
+  &:before {
+    content: "";
+    height: 84px;
+    background: url(../images/arrow-bottom.png) no-repeat top center;
+    position: absolute;
+    bottom: -90px;
+    width: 13px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+.border-dashed-right {
+  position: relative;
+  &:after {
+    content: "";
+    border-right: 1px dashed $black;
+    position: absolute;
+    right: -42px;
+    top: 0;
+    bottom: 0;
+  }
+}
+.border-left {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    border-left: 1px dashed $black;
+    width: 1px;
+    top: 0;
+    bottom: 90px;
+  }
+}
+.arrow-left {
+  position: relative;
+  &:before {
+    content: "";
+    background: url(../images/arrow-left.png) no-repeat right center;
+    height: 10px;
+    width: 40px;
+    position: absolute;
+    left: -45px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+.width-3box {
+  width: 1024px;
+}
+.padding-top {
+  padding-top: 70px;
+  position: relative;
+}
+.border-box {
+  border-top: 1px dashed $black;
+  position: absolute;
+  top: 0;
+  right: -40px;
+  margin: auto;
+}
+.width100 {
+  max-width: 906px;
+}
+.width75 {
+  width: 660px;
+  left: 0;
+  right: 0;
+}
+.padding-bottom {
+  padding-bottom: 64px;
+}

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+.left-nav {
+  max-width: 200px;
+  background: #303c42;
+  position: fixed;
+  height: 100vh;
+}
+
+.left-nav .nav .nav-item .nav-link {
+  color: #fff;
+}
+
+.left-nav .nav .nav-item .nav-link:hover {
+  background: #00a69a;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+
+.container {
+  max-width: 990px;
+  width: 100%;
+}
+
+.container1200 {
+  max-width: 1200px;
+}
+
+.common-box {
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.common-box .progress {
+  height: 10px;
+}
+
+.common-box .border-light {
+  border-color: #efefef !important;
+}
+
+.red-text svg path {
+  fill: #f11c2b;
+}
+
+.green-text svg path {
+  fill: #00a69a;
+}
+
+.bg-magenta {
+  background: #d3537e;
+  color: #fff;
+}
+
+.bg-mid-gray {
+  background: #d9d9d9;
+}
+
+.border-gray {
+  border: 1px solid #d9d9d9;
+  color: #7b7b7b;
+}
+
+.bg-dark-gray {
+  background: #7b7b7b;
+}
+
+.bg-dark-gray svg path {
+  fill: #7b7b7b;
+}
+
+.final-step-line {
+  width: 902px;
+  right: auto !important;
+}
+
+.child-border-top {
+  position: relative;
+}
+
+.child-border-top:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 23px;
+  top: -23px;
+  border-right: 1px dashed #7b7b7b;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bg-yellow {
+  background: #e6ba63;
+}
+
+.border-yellow {
+  border: 1px solid #e6ba63;
+}
+
+.border-magenta {
+  border: 1px solid #d3537e;
+}
+
+.orange-border-box {
+  border: 1px solid #f87e77;
+}
+
+.orange {
+  background: #f87e77;
+}
+
+.arrow-top {
+  position: relative;
+}
+
+.arrow-top:before {
+  content: "";
+  height: 80px;
+  position: absolute;
+  background: url(../images/arrow-bottom.png) no-repeat top center;
+  top: -66px;
+  width: 13px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.mb-6 {
+  margin-bottom: 80px;
+}
+
+.arrow-bottom {
+  position: relative;
+}
+
+.arrow-bottom:before {
+  content: "";
+  height: 84px;
+  background: url(../images/arrow-bottom.png) no-repeat top center;
+  position: absolute;
+  bottom: -90px;
+  width: 13px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.border-dashed-right {
+  position: relative;
+}
+
+.border-dashed-right:after {
+  content: "";
+  border-right: 1px dashed #212121;
+  position: absolute;
+  right: -42px;
+  top: 0;
+  bottom: 0;
+}
+
+.border-left {
+  position: relative;
+}
+
+.border-left:before {
+  content: "";
+  position: absolute;
+  border-left: 1px dashed #212121;
+  width: 1px;
+  top: 0;
+  bottom: 90px;
+}
+
+.arrow-left {
+  position: relative;
+}
+
+.arrow-left:before {
+  content: "";
+  background: url(../images/arrow-left.png) no-repeat right center;
+  height: 10px;
+  width: 40px;
+  position: absolute;
+  left: -45px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.width-3box {
+  width: 1024px;
+}
+
+.padding-top {
+  padding-top: 70px;
+  position: relative;
+}
+
+.border-box {
+  border-top: 1px dashed #212121;
+  position: absolute;
+  top: 0;
+  right: -40px;
+  margin: auto;
+}
+
+.width100 {
+  max-width: 906px;
+}
+
+.width75 {
+  width: 660px;
+  left: 0;
+  right: 0;
+}
+
+.padding-bottom {
+  padding-bottom: 64px;
+}
+/*# sourceMappingURL=main.css.map */

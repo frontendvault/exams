@@ -1,0 +1,16 @@
+.left-nav {
+  max-width: 200px;
+  background: $dense-green;
+  position: fixed;
+  height: 100vh;
+  .nav {
+    .nav-item {
+      .nav-link {
+        color: $white;
+        &:hover {
+          background: $green;
+        }
+      }
+    }
+  }
+}
