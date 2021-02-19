@@ -112,6 +112,10 @@ body {
   background: #f87e77;
 }
 
+.bg-blue {
+  background: #2777b1;
+}
+
 .arrow-top {
   position: relative;
 }
