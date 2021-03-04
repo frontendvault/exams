@@ -1,0 +1,212 @@
+[
+    {
+        "id": "11",
+        "patid": 0,
+        "name": "T1",
+        "typ": "E",
+        "perp": "80",
+        "lsta": "U",
+        "etyp": "MARK ONLY",
+        "minmax": "2/15",
+        "fmax": "15",
+        "fval": "SUM/CON (5+5+5+5)",
+        "cobj": [
+            {
+                "id": "13_188",
+                "patid": "11",
+                "name": "LANGUAGE",
+                "typ": "S",
+                "perp": 17,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/0",
+                "fmax": "0",
+                "fval": ""
+            },
+            {
+                "id": "13_246",
+                "patid": "11",
+                "name": "Science",
+                "typ": "S",
+                "perp": 33,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/10",
+                "fmax": "10",
+                "fval": ""
+            },
+            {
+                "id": "13_247",
+                "patid": "11",
+                "name": "Social",
+                "typ": "S",
+                "perp": 67,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/10",
+                "fmax": "10",
+                "fval": ""
+            },
+            {
+                "id": "13_248",
+                "patid": "11",
+                "name": "G.k",
+                "typ": "S",
+                "perp": 67,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/10",
+                "fmax": "10",
+                "fval": ""
+            },
+            {
+                "id": "13_249",
+                "patid": "11",
+                "name": "Life Skills",
+                "typ": "S",
+                "perp": 33,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/0",
+                "fmax": "0",
+                "fval": ""
+            },
+            {
+                "id": "13_182",
+                "patid": "11",
+                "name": "TELUNGU",
+                "typ": "S",
+                "perp": 100,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/0",
+                "fmax": "0",
+                "fval": ""
+            },
+            {
+                "id": "13_250",
+                "patid": "11",
+                "name": "Moral",
+                "typ": "S",
+                "perp": 83,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/10",
+                "fmax": "10",
+                "fval": ""
+            },
+            {
+                "id": "13_251",
+                "patid": "11",
+                "name": "Learning",
+                "typ": "S",
+                "perp": 83,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/10",
+                "fmax": "10",
+                "fval": ""
+            },
+            {
+                "id": "13_252",
+                "patid": "11",
+                "name": "PT",
+                "typ": "S",
+                "perp": 33,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/10",
+                "fmax": "10",
+                "fval": ""
+            },
+            {
+                "id": "13_253",
+                "patid": "11",
+                "name": "Hand Writting",
+                "typ": "S",
+                "perp": 0,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/10",
+                "fmax": "10",
+                "fval": ""
+            },
+            {
+                "id": "13_254",
+                "patid": "11",
+                "name": "Speaking",
+                "typ": "S",
+                "perp": 67,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "0/10",
+                "fmax": "10",
+                "fval": ""
+            },
+            {
+                "id": "13_2",
+                "patid": "11",
+                "name": "ENGLISH",
+                "typ": "S",
+                "perp": 100,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "2/15",
+                "fmax": "15",
+                "fval": "",
+                "cobj": [
+                    {
+                        "id": "13_153",
+                        "patid": "13_2",
+                        "name": "E1",
+                        "typ": "C",
+                        "perp": 17,
+                        "lsta": "",
+                        "etyp": "MARK ONLY",
+                        "minmax": "2/15",
+                        "fmax": "15",
+                        "fval": "SUM/CON (5+5+5+5)"
+                    },
+                    {
+                        "id": "13_154",
+                        "patid": "13_2",
+                        "name": "E2",
+                        "typ": "C",
+                        "perp": 100,
+                        "lsta": "",
+                        "etyp": "MARK ONLY",
+                        "minmax": "2/15",
+                        "fmax": "15",
+                        "fval": "SUM/CON (5+5+5+5)"
+                    }
+                ]
+            },
+            {
+                "id": "13_3",
+                "patid": "11",
+                "name": "MATHS",
+                "typ": "S",
+                "perp": 33,
+                "lsta": "",
+                "etyp": "MARK ONLY",
+                "minmax": "2/15",
+                "fmax": "15",
+                "fval": "",
+                "cobj": [
+                    {
+                        "id": "13_155",
+                        "patid": "13_3",
+                        "name": "M1",
+                        "typ": "C",
+                        "perp": 0,
+                        "lsta": "",
+                        "etyp": "MARK ONLY",
+                        "minmax": "2/15",
+                        "fmax": "15",
+                        "fval": "SUM/CON (5+5+5+5)"
+                    }
+                ]
+            }
+        ]
+    }
+]
