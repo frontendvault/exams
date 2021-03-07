@@ -25,10 +25,13 @@ async function getData() {
 
 // Show data
 
+
 async function getExamDataParent() {
+
   const res = await fetch("data/flow_exm_data.json");
   const examData = await res.json();
   const parentItem = examData[0];
+
 
   var headHtml = `<div class="row border-bottom border-light py-2">
                 <div class="col-8 ps-0">${parentItem.name}</div>
@@ -62,12 +65,15 @@ async function getExamDataParent() {
                 </div>
               </div>`;
 
-  document.getElementById("PageParent").innerHTML = headHtml;
+  document.getElementById('PageParent').innerHTML = headHtml;
 }
+
 
 async function getExamData() {
   const examData = await getData();
   examData.forEach((exam) => {
+
+
     var PageHtml = `<div class="border-box width100"></div>`;
 
     exam.cobj.map((dobj, idx) => {
@@ -117,7 +123,8 @@ async function getExamData() {
         </div>`;
     });
 
-    document.getElementById("rowData").innerHTML = PageHtml;
+    document.getElementById('rowData').innerHTML = PageHtml;
+
 
     //   const examEl = document.createElement("div");
     //   examEl.classList.add("col-md-3");
@@ -169,6 +176,7 @@ async function getExamData() {
 //<div class="border-box width100"></div>
 //<div class="col-md-3 mb-6 ">
 //</div>
+
 
 getExamDataParent();
 getExamData();
